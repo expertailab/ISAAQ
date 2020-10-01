@@ -263,3 +263,9 @@ The TQA dataset can be downloaded from [here](https://ai2-datasets.s3-us-west-2.
 
 **Diagram Multiple choice qestions**
 - [VQA v1 abstract scenes.](https://visualqa.org/vqa_v1_download.html)
+
+
+## Qualitative analysis
+The examples below illustrate the impact of the different levels of attention on the question diagram. The first column shows question and answer options, while the second adds the question diagram. The third illustrates the RoIs extracted through BU attention and the fourth adds attention heatmaps using BUTD. While BU assigns equal attention to all RoIs, BUTD also attends to the text of the question and each possible answer. For all the example questions, only the model with BUTD produces the correct answer.
+
+
